@@ -1,6 +1,6 @@
 Summary: Ghidralite(.)com is a website claiming to be a source of the Ghidra Lite reverse engineering tool. It is part of a larger campaign of malicious websites claiming to host popular open source tools. When the user clicks the download button, the website may redirect them to the official Ghidra Lite repository, but there is a chance that the website will redirect the user to other malicious websites which attempt to steal private information and download malware. 
 
-Methodology: This website was safely analyzed using Any.run safebrowsing. The website was opened and interacted with multiple times in order to make it redirect the user to a malicious website instead of the legitimate Ghidra Lite repository. All redirects were recorded and one malware sample was found and analyzed in the Any.run malware sandbox.
+Methodology: This website was safely analyzed using Any.run safebrowsing. The website was opened and interacted with multiple times in order to make it redirect the user to a malicious website instead of the legitimate Ghidra Lite repository. All redirects were recorded and one malware sample was found and dynamically analyzed in the Any.run malware sandbox.
 
 Threat: 
 - attempted host information leak
